@@ -15,7 +15,8 @@
     "is-empty": "*",
     "cheerio": "*",
     "http": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    "nodemailer": "*"
   },
   "devDependencies": {},
   "engine": "node >= 0.10.0"
