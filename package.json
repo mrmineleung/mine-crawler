@@ -1,0 +1,22 @@
+{
+  "name": "Crawler",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Mine Leung",
+  "dependencies": {
+    "express": "*",
+    "request": "*",
+    "ejs": "*",
+    "body-parser": "*",
+    "clipboard": "^2.0.1",
+    "is-empty": "*",
+    "cheerio": "*",
+    "http": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {},
+  "engine": "node >= 0.10.0"
+}
