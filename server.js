@@ -18,7 +18,7 @@ app.listen(process.env.PORT || 8099, function () {
 
   
 setInterval(function() {
-    http.get("http://<your app name>.herokuapp.com");
+    http.get("http://mine-crawler.herokuapp.com/");
 }, 300000);
 
 })
