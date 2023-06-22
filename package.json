@@ -1,5 +1,5 @@
 {
-  "name": "Crawler",
+  "name": "crawler",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -7,17 +7,11 @@
   },
   "author": "Mine Leung",
   "dependencies": {
-    "express": "*",
-    "request": "*",
-    "ejs": "*",
-    "body-parser": "*",
-    "clipboard": "^2.0.1",
-    "is-empty": "*",
+    "axios": "^0.21.4",
     "cheerio": "*",
-    "http": "*",
-    "mongoose": "*",
-    "nodemailer": "*"
+    "dotenv": "*",
+    "express": "*",
+    "node-cron": "^3.0.2"
   },
-  "devDependencies": {},
   "engine": "node >= 0.10.0"
 }
