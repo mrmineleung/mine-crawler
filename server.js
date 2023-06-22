@@ -14,7 +14,7 @@ let sent = false
 let input_keyword = '翻新產品 14 吋 MacBook Pro Apple M2 Pro'
 
 cron.schedule(process.env.CRON_EXPRESSION, function () {
-  processData('https://www.apple.com/hk-zh/shop/refurbished/mac', null)
+  processData(process.env.CRAWL_URL, process.env.KEYWORD)
   // sendNotificationIfNeeded()
 });
 
